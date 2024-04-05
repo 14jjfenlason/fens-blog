@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="dark contr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/form.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Joshua Fen's Blog</title>
+  </head>
+  <body>
+    <div>
+      <header class="row toggle abs themeBox">
+        <div class="col">
+          <p class="themeText">Dark</p>
+        </div>
+        <label class="switch col">
+          <input type="checkbox" id="theme-switcher">
+          <span class="slider round"></span>
+        </label>
+        <div class="col">
+          <p class="themeText">Light</p>
+        </div>
+      </header>
+      <div id="container">
+        <img src="./assets/images/chicklogo.PNG" alt="Logo of the blog with a Chickadee and a title of Joshua Fen's blog"/>
+        <section class="card">
+          <h2>Make a blog post!</h2>
+          <form method="POST">
+            <div class="input">
+              <label for="username">Username:</label>
+              <input type="text" name="username" id="username" placeholder="Enter you username" />
+            </div>
+            <div class="input">
+              <label for="title">Title:</label>
+              <input type="text" name="title" id="title" placeholder="Enter the title of your post" />
+            </div>
+            <div class="input">
+              <label for="content">Content:</label>
+              <textarea type="text" name="content" id="content" placeholder="What do you want to talk about?"></textarea>
+            </div>
+            <div id="submission">
+              <button id="submit">Submit</button>
+              <div id="msg"></div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/logic.js"></script>
+  </body>
+</html>

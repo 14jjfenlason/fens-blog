@@ -1,0 +1,54 @@
+#borderBox{
+    width: 98vw;
+    height: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0));
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+#back{
+    margin-right: 10px;
+    height: 35px;
+    width: 60px;
+    font-size: 18px;
+    background-color: #00b140;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.headline {
+    display: flex;
+    align-items: center;
+}
+
+.headline img {
+    max-width: 50px;
+}
+
+.headline h1 {
+    flex: 1;
+}
+
+.post {
+    border: 4mm ridge #00b140;
+    margin-bottom: 30px;
+    padding-left: 12px;
+}
+
+.usernameEdit{
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+}
+#footLine{
+    width: 98vw;
+    height: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0));
+}

@@ -1,0 +1,74 @@
+.card {
+    display: block;
+    background-color:#FFFFE0;;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+    margin: 40px auto;
+    padding: 20px;
+    width: 50%;
+    float: right;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#title, #username {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    font-size: 1.1em;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    font-size: 1.1em;
+    height: 200px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+}
+h2 {
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+button {
+    background-color: #00b140;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.8em;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+  }
+#submission {
+    display: flex;
+    align-items: center
+}
+#msg {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 945px) {
+    .card {
+        width: 100%;
+        float:none;
+        margin: 0 auto;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
